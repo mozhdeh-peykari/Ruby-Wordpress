@@ -1,0 +1,33 @@
+ <div id="col" class="noprint">
+        <div id="col-in">
+          <!--<h3><span><a href="#">About Me</a></span></h3>
+          <div id="about-me">
+            <p><!--<img src="design/tmp_photo.gif" id="me" alt="Yeah, it´s me!" />
+		<input type="image" src="<?php echo get_stylesheet_directory_uri(); ?>/design/tmp_photo.gif" id="me" value="OK" alt="Yeah, it´s me!" /> <strong>Jane Doe</strong><br />
+	  
+              Age: 26<br />
+              Dallas, TX<br />
+              <a href="#">Profile on MySpace</a></p>
+          </div>-->
+
+  
+          <hr class="noscreen" />
+          <h3 >Category</h3>
+          <ul id="category">
+            <li id="category-active"><a href="#">Selected category</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Category</a></li>
+          </ul>	
+
+
+    <?php if ( is_active_sidebar( 'home_right_1' ) ) : ?>
+	<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+		<span><?php dynamic_sidebar( 'home_right_1' ); ?></span>
+	</div><!-- #primary-sidebar -->
+   <?php endif; ?>
+        </div>
+      </div>
+    </div>
+  </div>
